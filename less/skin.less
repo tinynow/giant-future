@@ -1,0 +1,43 @@
+@merlot: #B22F1C; 
+@green: #AFC966; 
+@orange: #FF5941; 
+@blue: #4B7DCC; 
+@light: #E4EBCD;
+
+body {
+	background-color: @light;
+	color: #333;
+}
+
+h1 {
+	border-style: solid;
+	border-color: @green;
+	color: @merlot;
+}
+
+h2, blockquote {
+	color: @blue;
+}
+
+a:link {
+	color: @orange;
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: @orange;
+}
+
+.blue {
+	background-color: @blue;
+	color: #ddd;
+	h1 {
+		color: white;
+		border-style: solid;
+		border-color: @orange;
+	}
+	h2 {
+		color: @green;
+	}
+}
